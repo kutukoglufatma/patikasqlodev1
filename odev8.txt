@@ -1,0 +1,93 @@
+1-test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+    CREATE TABLE employee (
+         id INTEGER PRIMARY KEY ,
+         first_name VARCHAR(50) NOT NULL,
+         last_name VARCHAR(50) NOT NULL,
+         email VARCHAR(100),
+         birthday DATE   )       
+		 
+2-Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+insert into employee (id, first_name, last_name, email, birthday) values (1, 'Dacie', 'Hebbs', 'dhebbs0@pagesperso-orange.fr', '2023-05-01');
+insert into employee (id, first_name, last_name, email, birthday) values (2, 'Ollie', 'Kalker', 'okalker1@ibm.com', '2022-01-19');
+insert into employee (id, first_name, last_name, email, birthday) values (3, 'Dewie', 'Marczyk', 'dmarczyk2@gnu.org', '2022-12-11');
+insert into employee (id, first_name, last_name, email, birthday) values (4, 'Kendell', 'MacMeekan', 'kmacmeekan3@senate.gov', '2023-03-07');
+insert into employee (id, first_name, last_name, email, birthday) values (5, 'Schuyler', 'Bichard', 'sbichard4@1und1.de', '2021-10-11');
+insert into employee (id, first_name, last_name, email, birthday) values (6, 'Rozella', 'Kollas', 'rkollas5@phoca.cz', '2022-11-03');
+insert into employee (id, first_name, last_name, email, birthday) values (7, 'Catherine', 'MacGuffog', 'cmacguffog6@timesonline.co.uk', '2022-10-29');
+insert into employee (id, first_name, last_name, email, birthday) values (8, 'Ferd', 'Maciaszczyk', 'fmaciaszczyk7@etsy.com', '2023-05-08');
+insert into employee (id, first_name, last_name, email, birthday) values (9, 'Trina', 'Curror', 'tcurror8@purevolume.com', '2022-05-08');
+insert into employee (id, first_name, last_name, email, birthday) values (10, 'Tessy', 'Walkey', 'twalkey9@nature.com', '2022-06-12');
+insert into employee (id, first_name, last_name, email, birthday) values (11, 'Louise', 'Madden', 'lmaddena@stanford.edu', '2021-05-26');
+insert into employee (id, first_name, last_name, email, birthday) values (12, 'Logan', 'Eddison', 'leddisonb@cbsnews.com', '2021-08-08');
+insert into employee (id, first_name, last_name, email, birthday) values (13, 'Rudd', 'Cunnow', 'rcunnowc@php.net', '2023-05-10');
+insert into employee (id, first_name, last_name, email, birthday) values (14, 'Benni', 'Treadway', 'btreadwayd@pbs.org', '2022-03-29');
+insert into employee (id, first_name, last_name, email, birthday) values (15, 'Rhetta', 'Bladesmith', 'rbladesmithe@weibo.com', '2023-01-01');
+insert into employee (id, first_name, last_name, email, birthday) values (16, 'Sarene', 'Gabby', 'sgabbyf@intel.com', '2022-12-18');
+insert into employee (id, first_name, last_name, email, birthday) values (17, 'Tuckie', 'Sarson', 'tsarsong@craigslist.org', '2022-07-09');
+insert into employee (id, first_name, last_name, email, birthday) values (18, 'Donny', 'Maleney', 'dmaleneyh@flavors.me', '2022-10-22');
+insert into employee (id, first_name, last_name, email, birthday) values (19, 'Caspar', 'Groll', 'cgrolli@networkadvertising.org', '2021-06-17');
+insert into employee (id, first_name, last_name, email, birthday) values (20, 'Ethelind', 'Perdue', 'eperduej@miibeian.gov.cn', '2021-07-13');
+insert into employee (id, first_name, last_name, email, birthday) values (21, 'Joan', 'Blagdon', 'jblagdonk@reverbnation.com', '2021-11-24');
+insert into employee (id, first_name, last_name, email, birthday) values (22, 'Isabelita', 'Eburah', 'ieburahl@deviantart.com', '2021-11-03');
+insert into employee (id, first_name, last_name, email, birthday) values (23, 'Rick', 'Brownjohn', 'rbrownjohnm@rakuten.co.jp', '2022-11-22');
+insert into employee (id, first_name, last_name, email, birthday) values (24, 'Aube', 'Altoft', 'aaltoftn@slideshare.net', '2023-04-02');
+insert into employee (id, first_name, last_name, email, birthday) values (25, 'Perry', 'Baszniak', 'pbaszniako@gmpg.org', '2023-02-11');
+insert into employee (id, first_name, last_name, email, birthday) values (26, 'Morrie', 'Swinford', 'mswinfordp@rediff.com', '2021-10-21');
+insert into employee (id, first_name, last_name, email, birthday) values (27, 'Tome', 'Dymoke', 'tdymokeq@discovery.com', '2022-10-19');
+insert into employee (id, first_name, last_name, email, birthday) values (28, 'Susan', 'Woolam', 'swoolamr@nydailynews.com', '2023-04-21');
+insert into employee (id, first_name, last_name, email, birthday) values (29, 'Cammi', 'Winkless', 'cwinklesss@indiegogo.com', '2022-02-18');
+insert into employee (id, first_name, last_name, email, birthday) values (30, 'Eduino', 'Ecclestone', 'eecclestonet@army.mil', '2022-12-18');
+insert into employee (id, first_name, last_name, email, birthday) values (31, 'Stacee', 'Sainteau', 'ssainteauu@yahoo.co.jp', '2022-05-01');
+insert into employee (id, first_name, last_name, email, birthday) values (32, 'Armando', 'Fauning', 'afauningv@wikimedia.org', '2021-09-08');
+insert into employee (id, first_name, last_name, email, birthday) values (33, 'Freida', 'Quince', 'fquincew@webeden.co.uk', '2021-08-09');
+insert into employee (id, first_name, last_name, email, birthday) values (34, 'Florri', 'Sparshett', 'fsparshettx@dell.com', '2023-05-09');
+insert into employee (id, first_name, last_name, email, birthday) values (35, 'Nicolis', 'Antal', 'nantaly@wordpress.org', '2022-12-03');
+insert into employee (id, first_name, last_name, email, birthday) values (36, 'Reube', 'Afonso', 'rafonsoz@topsy.com', '2021-07-09');
+insert into employee (id, first_name, last_name, email, birthday) values (37, 'Sherie', 'McKag', 'smckag10@unesco.org', '2021-12-21');
+insert into employee (id, first_name, last_name, email, birthday) values (38, 'Yevette', 'McCraw', 'ymccraw11@bigcartel.com', '2021-07-26');
+insert into employee (id, first_name, last_name, email, birthday) values (39, 'Hans', 'Gonsalvez', 'hgonsalvez12@icio.us', '2022-09-04');
+insert into employee (id, first_name, last_name, email, birthday) values (40, 'Hershel', 'Albion', 'halbion13@foxnews.com', '2023-05-07');
+insert into employee (id, first_name, last_name, email, birthday) values (41, 'Brandie', 'Attfield', 'battfield14@google.es', '2021-10-27');
+insert into employee (id, first_name, last_name, email, birthday) values (42, 'Fax', 'Cawthorn', 'fcawthorn15@oakley.com', '2022-08-13');
+insert into employee (id, first_name, last_name, email, birthday) values (43, 'Dyanne', 'Kellet', 'dkellet16@cbc.ca', '2022-02-04');
+insert into employee (id, first_name, last_name, email, birthday) values (44, 'Phyllida', 'Parfitt', 'pparfitt17@smugmug.com', '2021-08-18');
+insert into employee (id, first_name, last_name, email, birthday) values (45, 'Phaedra', 'Olivas', 'polivas18@wsj.com', '2021-10-26');
+insert into employee (id, first_name, last_name, email, birthday) values (46, 'Anastasia', 'Passmore', 'apassmore19@gov.uk', '2022-06-03');
+insert into employee (id, first_name, last_name, email, birthday) values (47, 'Heidi', 'Kinmond', 'hkinmond1a@apache.org', '2023-01-22');
+insert into employee (id, first_name, last_name, email, birthday) values (48, 'Clio', 'Andrzejczak', 'candrzejczak1b@hao123.com', '2021-09-22');
+insert into employee (id, first_name, last_name, email, birthday) values (49, 'Caritta', 'Frigout', 'cfrigout1c@go.com', '2021-10-14');
+insert into employee (id, first_name, last_name, email, birthday) values (50, 'Codie', 'Sobey', 'csobey1d@columbia.edu', '2022-05-05');
+
+3-Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+        UPDATE employee
+        SET first_name = 'Hebbs'
+        WHERE email ='dhebbs0@pagesperso-orange.fr'
+        RETURNING * ;
+		
+		UPDATE employee
+		SET last_name = 'Sobey'
+		WHERE birthday = (select min(birthday) from employee)
+		RETURNING * ;
+		
+		UPDATE employee
+		SET last_name = ' Değişti'
+        WHERE last_name  LIKE '%k'
+		RETURNING * ;
+		
+4-Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+        
+		DELETE FROM employee
+		WHERE first_name = 'Codie '
+		RETURNING * ;
+		
+		DELETE FROM employee
+		WHERE id= 34 
+		RETURNING * ;
+		
+		DELETE FROM employee
+		WHERE email = 'smckag10@unesco.org' 
+		RETURNING * ;
+		
